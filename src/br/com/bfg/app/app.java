@@ -4,7 +4,7 @@ import java.util.Scanner;
 import br.com.bfg.model.Cliente;
 import br.com.bfg.model.Conta;
 
-public class main {
+public class app {
 	static Scanner scan = new Scanner(System.in);
 	
 	public static void depositar(Conta conta) {

@@ -6,7 +6,7 @@ public class Conta {
 	private int numero;
 	private float saldo;
 	private Cliente cliente;
-	private Date data_abertura;
+	public Date data_abertura;
 	public static int contador = 19135001;
 	
 	

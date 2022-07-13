@@ -2,10 +2,10 @@ package br.com.bfg.model;
 
 public class Cliente {
 	private String nome, email;
-	private int cpf, telefone;
+	private long cpf, telefone;
 	private String data_nascimento;
 	
-	public Cliente(String nome, String data_nascimento, int cpf, int telefone, String email) {
+	public Cliente(String nome, String data_nascimento, long cpf, long telefone, String email) {
 		this.nome = nome;
 		this.data_nascimento = data_nascimento;
 		this.cpf = cpf;
@@ -29,19 +29,19 @@ public class Cliente {
 		this.email = email;
 	}
 
-	public int getCpf() {
+	public long getCpf() {
 		return cpf;
 	}
 
-	public void setCpf(int cpf) {
+	public void setCpf(long cpf) {
 		this.cpf = cpf;
 	}
 
-	public int getTelefone() {
+	public long getTelefone() {
 		return telefone;
 	}
 
-	public void setTelefone(int telefone) {
+	public void setTelefone(long telefone) {
 		this.telefone = telefone;
 	}
 
